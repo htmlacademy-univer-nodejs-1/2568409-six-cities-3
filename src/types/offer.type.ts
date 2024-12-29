@@ -1,8 +1,8 @@
 import {UserType} from './user.type.js';
-import {CityEnum} from './city.enum';
-import {HousingType} from './housing-type.enum';
-import {Facilities} from './facilities.enum';
-import {CoordinatesType} from './coordinates.type';
+import {CityEnum} from './city.enum.js';
+import {HousingType} from './housing-type.enum.js';
+import {Facilities} from './facilities.enum.js';
+import {CoordinatesType} from './coordinates.type.js';
 
 
 export type OfferType = {
@@ -18,7 +18,7 @@ export type OfferType = {
   housingType: HousingType;
   roomCount: number;
   guestCount: number;
-  price: number;
+  cost: number;
   facilities: Facilities[];
   offerAuthor: UserType;
   commentsCount: number;
