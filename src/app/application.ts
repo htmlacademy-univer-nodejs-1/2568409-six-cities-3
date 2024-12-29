@@ -4,7 +4,7 @@ import {ConfigInterface} from '../common/config/config.interface.js';
 import {inject, injectable} from 'inversify';
 import {Component} from '../types/component.enum.js';
 import {ConfigSchema} from '../common/config/config.schema.js';
-import {DatabaseClientInterface} from '../common/database-client/database-client.interface.js';
+import {DatabaseClientInterface} from '../database-client/database-client.interface.js';
 import {getConnectionString} from '../common/helpers/common.js';
 
 
